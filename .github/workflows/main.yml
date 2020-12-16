@@ -28,7 +28,7 @@ jobs:
       with:
         ruby-version: 2.6
     - name: Install dependencies
-      run: bundle install jekyll 
+      run: gem install jekyll 
     - name: Build jekyll site
       run: bundle exec jekyll build
     - name: push code
